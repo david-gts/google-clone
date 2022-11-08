@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif
+    
+}
+.navbar {
+    display: flex;
+    height: 48px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    gap: 20px;
+    font-size: 13px;
+    background-color: rgba(32,33,36,1);
+    color: white;
+}
+
+
+.icon-menu {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    fill: white;
+}
+.icon-menu:hover {
+    cursor: pointer;
+    background-color: rgba(92, 89, 89, 0.76);
+    border-radius: 100%;
+}
+.imgdavid {
+    height: 
+    40px;
+    border-radius: 100%;
+    margin: 0;
+    padding: 4px;
+}
+.imgdavid:hover {
+    cursor: pointer;
+    background-color: rgba(92, 89, 89, 0.76);
+}
+
+.principal {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(32,33,36,1);
+    height: calc(100vh - 48px - 96px);
+    gap: 15px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    height: 44px;
+    width: 561px;
+    border: 1px solid #5f6368;
+    border-radius: 50px;
+    color: white;
+    gap: 10px;
+
+}
+.input {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    outline: none;
+    color: white;
+    width: 100%;
+}
+.icon-search {
+    display: flex;
+    height: 20px;
+    fill: #9aa0a6;
+}
+.group-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;    
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.button {
+    height: 36px;
+    width: 147px;
+    background-color: #303134;
+    border-color: #303134;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+}
+
+.forgoogle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.forgoogle span {
+    color: #bdc1c6;
+    font-size: 13px;
+}
+.forgoogle a {
+    color: #8ab4f8;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 96px;
+    background-color: #171717;
+}
+.peru {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 48px;
+    border-bottom: 1px solid #3c4043;
+    color: #9aa0a6;
+    padding: 0 20px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+
+}
+.footer-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 46px;
+}
+.about-left a {
+    color: #9aa0a6;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.about-right a {
+    color: #9aa0a6;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.size-icons{
+    width: 24px;
+    height: 24px;
+}
+.shadow:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
